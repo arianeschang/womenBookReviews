@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import urllib2
 from goodreads import client
 import csv
+import os
 
 
 def getWikiGenre(title):
