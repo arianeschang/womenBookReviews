@@ -1,0 +1,342 @@
+
+Analyzing: 5693 book reviews.
+
+Of the 5693 reviews: 3806 (66.85%) are written by men
+Of the 5693 reviews: 1887 (33.15%) are written by women
+
+15.21% of male authors are reviewed more than once.
+14.94% of female authors are reviewed more than once.
+
+2.34% of male authors are reviewed more than three times.
+1.91% of female authors are reviewed more than three times.
+
+0.42% of male authors are reviewed more than five times.
+0.26% of female authors are reviewed more than five times.
+
+
+-----------UNCONSOLIDATED THEMES------------
+
+Number of unique themes found: 164
+Number of total themes found: 24285
+Theme                      TotalCount
+-----------------------  ------------
+Fiction                          2592
+Nonfiction                       2217
+History                          1211
+Cultural                          980
+Contemporary                      902
+Historical Fiction                792
+Biography                         755
+Literature                        650
+Mystery                           582
+Autobiography                     577
+Young Adult                       515
+Historical                        509
+Politics                          503
+Romance                           494
+Novels                            468
+Fantasy                           465
+Literary Fiction                  433
+Science                           371
+Short Stories                     341
+War                               333
+European Literature               311
+Science Fiction                   275
+Writing                           272
+Humor                             271
+Adult Fiction                     259
+Thriller                          248
+Childrens                         247
+Philosophy                        246
+Adult                             243
+Classics                          220
+North American Hi...              218
+Religion                          195
+Psychology                        194
+Travel                            189
+Womens Fiction                    187
+Adventure                         185
+Poetry                            179
+Biography Memoir                  175
+Sociology                         160
+Academic                          151
+Art                               150
+Economics                         148
+Business                          145
+Realistic Fiction                 129
+Music                             112
+Family                            112
+Horror                            106
+Suspense                          105
+Glbt                              101
+Environment                        99
+Health                             95
+Animals                            95
+Sports and Games                   93
+Food and Drink                     79
+Paranormal                         77
+Feminism                           74
+Magical Realism                    73
+Sequential Art                     71
+Culture                            71
+Crime                              68
+Book Club                          67
+New York                           64
+Language                           63
+Reference                          59
+Drama                              58
+Biology                            57
+Self Help                          56
+Womens                             55
+Science Fiction Fantasy            55
+New Adult                          54
+Sports                             53
+Criticism                          53
+American                           53
+Race                               51
+Military                           50
+Parenting                          50
+Spy Thriller                       48
+Spirituality                       46
+Education                          45
+Law                                38
+Relationships                      37
+Medical                            37
+Asian Literature                   36
+World War II                       35
+Western                            34
+Anthologies                        34
+Military History                   34
+Plays                              33
+Action                             33
+Social Science                     32
+Anthropology                       31
+Apocalyptic                        29
+Christian                          27
+Graphic Novels Comics              25
+Media Tie In                       24
+Gothic                             23
+Humanities                         20
+Buisness                           18
+Love                               18
+Mental Health                      17
+Holiday                            17
+Sexuality                          17
+Novella                            17
+Death                              17
+Gender                             17
+Modern                             17
+Design                             16
+Leadership                         15
+Social Movements                   15
+Marriage                           15
+Roman                              15
+United States                      14
+Social Issues                      13
+Architecture                       13
+Retellings                         12
+Comics                             12
+Christian Fiction                  12
+Nobel Prize                        11
+Football                           10
+Judaism                            10
+Christianity                       10
+Computers                          10
+Teaching                            9
+Speculative Fiction                 9
+American History                    9
+Dark                                9
+Female Authors                      8
+Gardening                           8
+Inspirational                       8
+Shapeshifters                       8
+Nature                              7
+How To                              7
+Cities                              7
+Alcohol                             7
+Science Nature                      7
+Erotica                             7
+Own                                 7
+Geography                           7
+Transport                           6
+Fairies                             6
+Superheroes                         6
+School Stories                      6
+Space                               5
+Artificial Intelligence             5
+Social                              4
+Diary                               4
+Crafts                              4
+Lds                                 4
+Disability                          4
+Dc Comics                           3
+Folklore                            3
+Museology                           3
+Gay Romance                         3
+Fairy Tales                         2
+Tragedy                             2
+School                              2
+Queer                               2
+Mythology                           2
+Esoterica                           2
+Textbooks                           2
+Romantic                            2
+Folk Tales                          2
+Games                               2
+
+Percentage of Books by Women that are Nonfiction: 31.9%
+Percentage of Books by Women that are Fiction: 54.9%
+
+Percentage of Books by Men that are Nonfiction: 42.43%
+Percentage of Books by Men that are Fiction: 40.88%
+
+Men: Top 20 Themes and Corresponding Women's Percentage
+
+Theme                   Men(%)    Women(%)       Delta
+--------------------  --------  ----------  ----------
+Economics              3.31056     1.16587   95.8214
+Politics              10.825       4.82247   76.7222
+Science                7.96111     3.6036    75.3587
+Philosophy             5.22859     2.49073   70.9353
+North American Hi...   4.57173     2.33174   64.8945
+Thriller               5.14976     2.7557    60.5674
+History               24.6716     14.4144    52.4851
+War                    6.67367     4.18654   45.8027
+Religion               3.80977     2.64971   35.9182
+Travel                 3.59958     2.7557    26.5569
+Adventure              3.44193     2.86169   18.41
+Mystery               10.7987      9.062     17.4891
+Psychology             3.59958     3.02067   17.4891
+Poetry                 3.31056     2.80869   16.403
+Humor                  4.96584     4.34552   13.324
+Science Fiction        4.99212     4.5045    10.2692
+Classics               3.94115     3.70959    6.05311
+Biography             13.2948     13.1955     0.749324
+European Literature    5.46506     5.4584     0.121859
+Cultural              16.4214     18.8129   -13.5748
+Fantasy                7.6721      9.16799  -17.7659
+Autobiography          9.06463    12.2946   -30.2446
+Romance                7.54073    10.9698   -37.0499
+Childrens              3.75723     5.51139  -37.8518
+Young Adult            7.61955    11.9237   -44.0474
+Historical Fiction    11.6658     18.442    -45.0128
+Historical             7.43563    11.9767   -46.7853
+Literary Fiction       6.12191    10.5988   -53.5493
+Adult                  3.31056     6.20032  -60.7674
+Adult Fiction          3.17919     7.3132   -78.8001
+
+Women: Top 20 Themes and Corresponding Men's Percentage
+
+Theme                  Women(%)     Men(%)       Delta
+-------------------  ----------  ---------  ----------
+Feminism                3.23264   0.341566  161.774
+Womens Fiction          5.72337   2.07567    93.5423
+Family                  3.39163   1.26117    91.5777
+Adult Fiction           7.3132    3.17919    78.8001
+Adult                   6.20032   3.31056    60.7674
+Biography Memoir        4.45151   2.39096    60.2282
+Literary Fiction       10.5988    6.12191    53.5493
+Historical             11.9767    7.43563    46.7853
+Realistic Fiction       3.02067   1.89175    45.9618
+Historical Fiction     18.442    11.6658     45.0128
+Young Adult            11.9237    7.61955    44.0474
+Childrens               5.51139   3.75723    37.8518
+Romance                10.9698    7.54073    37.0499
+Autobiography          12.2946    9.06463    30.2446
+Fantasy                 9.16799   7.6721     17.7659
+Cultural               18.8129   16.4214     13.5748
+European Literature     5.4584    5.46506    -0.121859
+Biography              13.1955   13.2948     -0.749324
+Classics                3.70959   3.94115    -6.05311
+Science Fiction         4.5045    4.99212   -10.2692
+Humor                   4.34552   4.96584   -13.324
+Poetry                  2.80869   3.31056   -16.403
+Psychology              3.02067   3.59958   -17.4891
+Mystery                 9.062    10.7987    -17.4891
+Adventure               2.86169   3.44193   -18.41
+War                     4.18654   6.67367   -45.8027
+History                14.4144   24.6716    -52.4851
+Thriller                2.7557    5.14976   -60.5674
+Science                 3.6036    7.96111   -75.3587
+Politics                4.82247  10.825     -76.7222
+
+-----------CONSOLIDATED THEMES------------
+
+Number of total themes found: 130
+
+Percentage of Books by Women that are Nonfiction: 31.9%
+Percentage of Books by Women that are Fiction: 58.88%
+
+Percentage of Books by Men that are Nonfiction: 42.43%
+Percentage of Books by Men that are Fiction: 43.75%
+
+Men: Top 20 Themes and Corresponding Women's Percentage
+
+Theme                      Men(%)    Women(%)        Delta
+-----------------------  --------  ----------  -----------
+Sports                    2.25959    0.741918   101.127
+Business                  3.33684    1.37785     83.1015
+Politics|Economics|Law   12.3226     5.40541     78.0373
+Science                   7.98739    3.70959     73.1436
+Philosophy                5.22859    2.49073     70.9353
+War                       8.72307    5.35241     47.894
+Religion                  3.80977    2.64971     35.9182
+Domestic/American         7.19916    5.03445     35.3896
+Travel                    3.59958    2.7557      26.5569
+Academic                  2.8639     2.22576     25.0761
+Horror                    1.99685    1.58983     22.6964
+Art                       5.96427    4.82247     21.1704
+Adventure                15.8697    13.1426      18.7998
+Psychology                3.59958    3.02067     17.4891
+Poetry                    3.31056    2.80869     16.403
+Humor                     4.96584    4.34552     13.324
+History                  36.6789    32.9624      10.6734
+Classics                  3.94115    3.70959      6.05311
+Foreign/Non-American      6.20074    6.04134      2.60414
+Biography                13.6364    13.7255      -0.651466
+Fantasy|Science Fiction  10.4572    11.1818      -6.69716
+Humanities               20.7567    22.3105      -7.21591
+Environment               2.969      3.44462    -14.8317
+Autobiography             9.09091   12.2946     -29.9617
+Childrens                 3.75723    5.51139    -37.8518
+Romance                   7.85602   12.1887     -43.2299
+Young Adult               7.61955   11.9237     -44.0474
+Adult                     3.31056    6.20032    -60.7674
+Family                    1.91802    5.08744    -90.4841
+Feminism                  2.62743   10.7578    -121.483
+
+Women: Top 20 Themes and Corresponding Men's Percentage
+
+Theme                      Women(%)     Men(%)       Delta
+-----------------------  ----------  ---------  ----------
+Feminism                   10.7578    2.62743   121.483
+Family                      5.08744   1.91802    90.4841
+Magical Realism             2.11977   0.867052   83.8829
+Adult                       6.20032   3.31056    60.7674
+Young Adult                11.9237    7.61955    44.0474
+Romance                    12.1887    7.85602    43.2299
+Childrens                   5.51139   3.75723    37.8518
+Autobiography              12.2946    9.09091    29.9617
+BLGT                        2.01378   1.70783    16.4417
+Environment                 3.44462   2.969      14.8317
+Humanities                 22.3105   20.7567      7.21591
+Fantasy|Science Fiction    11.1818   10.4572      6.69716
+Biography                  13.7255   13.6364      0.651466
+Foreign/Non-American        6.04134   6.20074    -2.60414
+Classics                    3.70959   3.94115    -6.05311
+Health                      1.69581   1.8392     -8.11243
+History                    32.9624   36.6789    -10.6734
+Humor                       4.34552   4.96584   -13.324
+Poetry                      2.80869   3.31056   -16.403
+Psychology                  3.02067   3.59958   -17.4891
+Adventure                  13.1426   15.8697    -18.7998
+Art                         4.82247   5.96427   -21.1704
+Academic                    2.22576   2.8639    -25.0761
+Travel                      2.7557    3.59958   -26.5569
+Domestic/American           5.03445   7.19916   -35.3896
+Religion                    2.64971   3.80977   -35.9182
+War                         5.35241   8.72307   -47.894
+Philosophy                  2.49073   5.22859   -70.9353
+Science                     3.70959   7.98739   -73.1436
+Politics|Economics|Law      5.40541  12.3226    -78.0373
+
