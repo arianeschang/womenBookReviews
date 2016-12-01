@@ -1,7 +1,3 @@
-file_name,file_name_complete,reviewer,reviewer_gender,author,author_gender,multiple,date,review_url,book_isbn,book_title
-02gates.html,02gates.html.txt,David Gates,male,Colson Whitehead,male,,2006
-,http://www.nytimes.com/2006/04/02/books/review/02gates.html,9780385507950,Apex Hides the Hurt: A Novel
-02gates.html,02gates.html.txt,David Gates,male,Colson Whitehead,male,,2006
-,http://www.nytimes.com/2006/04/02/books/review/02gates.html,9780385507950,Apex Hides the Hurt: A Novel
-02gates.html,02gates.html.txt,David Gates,male,Colson Whitehead,male,,2006
-,http://www.nytimes.com/2006/04/02/books/review/02gates.html,9780385507950,Apex Hides the Hurt: A Novel
+version https://git-lfs.github.com/spec/v1
+oid sha256:4301866ee498fe251fc1992209e1aece0d5b317e4849bce3439121b3847dd48e
+size 1141392

@@ -5,6 +5,12 @@ from goodreads import client
 import csv
 import os
 
+urlTitles = list(open('metaAdditionsTitles.csv', 'r'))
+
+
+finalFile = open('nytBookThemes.csv', 'w').close()
+finalFile = open('nytBookThemes.csv', 'a')
+
 
 def getWikiGenre(title):
 	genre = ''
@@ -73,10 +79,21 @@ def getGoodReadsGenres(link):
 
 	return list(set(listGenres))
 
-def getAllGenres(title, gc):
+def getAllGenres(title, author, gc):
 	print 'finding Goodreads URL'
-	book = gc.search_books(title)[0]
-
+	try:
+		book = gc.search_books(search + ' ' + author)[0]
+	except:
+		try:
+			book = gc.search_books(title)[0]
+		except:
+			try:
+				newTitle = title.split(' ')[0:4]
+				book = gc.search_books(newTitle)[0]
+			except:
+				print title
+				print author
+				print 'DIDN"T WORK'
 
 	isbn =  book.isbn
 	link = book.link
@@ -85,11 +102,11 @@ def getAllGenres(title, gc):
 	GRgenre = []
 
 
-	try:
-		wikiGenre = getWikiGenre(title)
-	except Exception, e:
-		print "Unable to get wiki"
-		print e
+	#try:
+	#	wikiGenre = getWikiGenre(title)
+	#except Exception, e:
+	#	print "Unable to get wiki"
+	#	print e
 
 	try:
 		GRgenre = getGoodReadsGenres(link)
@@ -98,10 +115,10 @@ def getAllGenres(title, gc):
 		print e
 
 	print title
-	print "Wikipedia finds: " + wikiGenre
+	#print "Wikipedia finds: " + wikiGenre
 	print "Goodreads finds: " + "; ".join(GRgenre)
 
-	return title, wikiGenre, "; ".join(GRgenre)
+	return title, wikiGenre, "; ".join(GRgenre), isbn
 
 
 def main():
@@ -109,13 +126,37 @@ def main():
 	gc = client.GoodreadsClient("ENQJ9KubRltIC7lSKZSYA", "trYzd1HBcV4kNCtarG071uFZS1nbKLvo5Rg8CTb0ao")
 
 
-	lines = list(open('bookTitles.txt', 'r'))[0]
-	listBooks = lines.split(', ')
+	#lines = list(open('bookTitles.txt', 'r'))[0]
+	#listBooks = lines.split(', ')
 
-	outputFile = open('bookGenres.csv', 'a')
-	for book in listBooks:
-		title, wikiGenre, grGenre = getAllGenres(book, gc)
-		outputFile.write(title + ',' + wikiGenre + ',' + grGenre + '\n')
+	for row in urlTitles:
+		line = row.split(',')
+		if line[6] == 'y':
+			continue
+		filename = line[1]
+		reviewer = line[2]
+		reviewer_gender = line[3]
+		author = line[4]
+		authorGender = line[5]
+		numAuthors = line[6]
+		date = line[7]
+		url = line[8]
+		title = line[9]
+
+		title = title[:-1]
+
+		try:
+			title, wikiGenre, grGenre, isbn  = getAllGenres(title, author, gc)
+			row = row[:-1]
+			writtenstring = row + title + ',(' + grGenre + ";';" + str(isbn) + ')' + '\n'
+			finalFile.write(writtenstring)
+
+		
+		except:
+			continue
+		
+
+
 		
 
 if __name__ == '__main__':
