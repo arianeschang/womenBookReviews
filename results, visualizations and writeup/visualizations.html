@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1-beta.2/Chart.min.js"></script>
+	<title>Chart.Js</title>
+</head>
+<body>
+
+<h1>Statistical Analysis of Books Chosen for Review by New York Times from 2000 to 2015</h1>
+<h2>Total Gender Ratio of Books</h2>
+
+<canvas id="genderRatio" width="300" height="300"></canvas>
+<script>
+var pieData = [
+   {
+      value: 66.9,
+      label: 'Men',
+      color: '#e6b3ff',
+   },
+   {
+      value: 33.1,
+      label: 'Women',
+      color: '#b3d1ff',
+   }
+];
+
+var options = {
+    tooltipTemplate: "<%= label %> -  <%= value + '%' %>",
+    animation: false
+}
+var context = document.getElementById('genderRatio').getContext('2d');
+new Chart(context).Doughnut(pieData, options);
+</script>
+
+<h2>Gender Ratio Changes Over Time</h2>
+<canvas id="longitudinal" width="600" height="500"></canvas>
+<script>
+var ctx = document.getElementById('longitudinal').getContext('2d');
+var lineData = {
+    labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015'],
+    datasets: [{
+      label: 'Women',
+      data: [43.5, 39.3, 28.9, 31.0, 26.6, 30.7, 31.6, 25.1, 21.1, 32.7, 25.5, 27.9, 32.5, 40.0, 44.2, 41.7],
+      strokeColor: "#b3d1ff",
+      fillColor: "#b3d1ff",
+      pointColor: "#b3d1ff",
+
+    }, {
+      label: 'Men',
+      data: [56.5, 60.7, 71.1, 69.0, 73.4, 69.3, 68.4, 74.9, 78.9, 67.3, 74.5, 72.1, 67.5, 60.0, 55.8, 58.3],
+      strokeColor: "#e6b3ff",
+    fillColor: "#e6b3ff",
+    pointColor: "#e6b3ff",
+
+    }]
+  }
+var options = {
+    multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>%",
+	datasetFill : false,
+    scaleOverride: true,
+    scaleBeginAtZero : true,
+    scaleStepWidth: 5,
+    scaleSteps: 20,
+    
+   
+}
+new Chart(ctx).Line(lineData, options);
+</script>
+
+<h2>Gender Ratios in Fiction vs. Non-Fiction Books</h2>
+<canvas id="fictionNonFiction" width="600" height="500"></canvas>
+<script>
+var ctx = document.getElementById('fictionNonFiction').getContext('2d');
+var lineData = {
+    labels: ['Fiction', 'Non-Fiction'],
+    datasets: [{
+      label: 'Women',
+      data: [54.9, 31.9],
+      strokeColor: "#b3d1ff",
+      fillColor: "rgba(179,209,255, .5)",
+    }, {
+      label: 'Men',
+      data: [40.9, 42.4],
+      strokeColor: "#e6b3ff",
+      fillColor: "rgba(230,179,255, .5)",
+    }]
+  }
+var options = {
+    multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>%",
+    isFixedWidth:false,
+   barValueSpacing : 50,
+    scaleStepWidth: 5,
+ scaleOverride: true,
+    scaleSteps: 15,
+}
+new Chart(ctx).Bar(lineData, options);
+</script>
+
+<h2>Gender Ratios by Theme in Books</h2>
+<canvas id="themes" width="600" height="500"></canvas>
+<script>
+var ctx = document.getElementById('themes').getContext('2d');
+var lineData = {
+    labels: ['Historical Fiction', 'Young Adult', 'Romance', 'Autobiography', 'Feminism', 'Cultural', 'Family', 'Childrens', 'Fantasy', 'Biography', 'Religion', 'Mystery', 'Economics', 'War', 'Philosophy', 'Science', 'Politics', 'History'],
+    datasets: [{
+      label: 'Women',
+      data: [18.4, 12.0, 11.0, 12.3, 3.2, 18.9, 3.4, 5.5, 9.2, 13.2, 2.6, 9.0, 1.2, 4.2, 2.5, 3.6, 4.8, 14.4],
+      strokeColor: "#b3d1ff",
+      fillColor: "rgba(179,209,255, .5)",
+    }, {
+      label: 'Men',
+      data: [11.7, 7.6, 7.5, 9.0, 0.3, 16.4, 1.3, 3.8, 7.7, 13.3, 3.8, 10.8, 3.3, 6.7, 5.2, 8.0, 10.8, 24.7],
+      strokeColor: "#e6b3ff",
+      fillColor: "rgba(230,179,255, .5)",
+    }]
+  }
+var options = {
+    multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>%",
+    isFixedWidth:false,
+   barValueSpacing : 5,
+    scaleStepWidth: 2,
+ scaleOverride: true,
+    scaleSteps: 15,
+}
+new Chart(ctx).Bar(lineData, options);
+</script>
+
+
+
+</body>
+</html>

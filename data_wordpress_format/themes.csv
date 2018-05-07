@@ -1,0 +1,36 @@
+Genre,Women,Men
+string,number,number
+History,15.32,18.2
+Romance,14.1,8
+Youth,12.5,8.5
+Science,8.9,13.2
+Gender,8.8,2.4
+Fantasy,7.2,6
+Crime/Mystery,7,8.6
+Arts,4.7,5.9
+Family,4.2,1.4
+European Lit,3.3,3.4
+Social Science,3.3,3.9
+Adventure,3.1,5
+Environment,3,2.4
+Comedy,2.8,3.5
+Government,2.6,6.7
+Leisure,2.5,2.8
+War,2.4,4.4
+Dark,2.2,2.2
+Sexuality,2,1.1
+Spirituality,1.9,3.6
+American,1.9,1.5
+Magical Realism,1.7,0.66
+Humanities,1.2,3.1
+Health/Body,1,1.4
+Business,0.95,2.1
+Economics,0.8,2.7
+Self Help,0.7,0.58
+Language,0.5,0.81
+Education,0.5,0.42
+Sports,0.5,1.5
+Asian Lit,0.5,0.6
+Military History,0.4,0.68
+Race,0.4,0.55
+Social Issues,0.4,0.44

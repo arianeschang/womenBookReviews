@@ -1,0 +1,359 @@
+Analyzing: 5693 book reviews.
+
+Of the 5693 reviews: 3806 (66.85%) are written by men
+Of the 5693 reviews: 1887 (33.15%) are written by women
+
+15.21% of male authors are reviewed more than once.
+14.94% of female authors are reviewed more than once.
+
+2.34% of male authors are reviewed more than three times.
+1.91% of female authors are reviewed more than three times.
+
+0.42% of male authors are reviewed more than five times.
+0.26% of female authors are reviewed more than five times.
+
+count total books labelled F/NF 2413
+
+
+-----------UNCONSOLIDATED THEMES------------
+
+Number of unique themes found: 91
+Number of total themes found: 14888
+Theme                      TotalCount
+-----------------------  ------------
+Nonfiction                       1363
+Fiction                          1050
+Cultural                          681
+Literature                        608
+Contemporary                      600
+Mystery                           580
+Autobiography                     551
+Young Adult                       480
+Historical Fiction                460
+Novels                            425
+Romance                           353
+Science                           317
+Fantasy                           315
+Politics                          311
+Literary Fiction                  277
+History                           271
+Short Stories                     265
+Humor                             257
+Historical                        257
+Biography                         237
+North American Hi...              214
+Childrens                         205
+Philosophy                        197
+Science Fiction                   193
+European Literature               190
+War                               175
+Biography Memoir                  170
+Travel                            156
+Sociology                         154
+Poetry                            142
+Art                               142
+Religion                          137
+Psychology                        135
+Economics                         127
+Writing                           123
+Thriller                          114
+Horror                             95
+Adult Fiction                      94
+Classics                           93
+Animals                            90
+Music                              89
+Business                           87
+Glbt                               85
+Family                             83
+Womens Fiction                     82
+Adult                              82
+Environment                        74
+Realistic Fiction                  64
+Adventure                          64
+Academic                           63
+Sequential Art                     60
+Suspense                           59
+Magical Realism                    58
+Biology                            56
+Health                             54
+Criticism                          53
+Sports and Games                   53
+Food and Drink                     51
+Book Club                          47
+Spy Thriller                       45
+Culture                            43
+Science Fiction Fantasy            41
+New York                           41
+Reference                          40
+Paranormal                         40
+Language                           40
+New Adult                          39
+Relationships                      37
+World War II                       35
+Military                           34
+Drama                              34
+Parenting                          34
+Plays                              33
+Asian Literature                   32
+American                           32
+Crime                              31
+Sports                             31
+Race                               31
+Military History                   31
+Self Help                          30
+Apocalyptic                        29
+Anthologies                        28
+Medical                            28
+Social Science                     25
+Christian                          25
+Western                            22
+Womens                             22
+Education                          22
+Spirituality                       22
+Law                                22
+Anthropology                       21
+
+Percentage of Books by Women that are Nonfiction: 20.08%, 379
+Percentage of Books by Women that are Fiction: 21.36%, 403
+
+Percentage of Books by Men that are Nonfiction: 25.85%, 984
+Percentage of Books by Men that are Fiction: 17.0%, 647
+Male Count3806
+Female Count1887
+
+Men: Top Themes and Corresponding Women's Percentage
+
+                                Theme    Men(#)     Women(#)    Standard Dev  P Value
+-----------------------  ---  -------  --------  -----------  --------------  ---------
+Politics                 262       49   8.30181  5.34897e-12       0.360614   M
+Adult Fiction             30       64   4.56411  5.44284e-12       4.4188     F
+Historical Fiction       244      216  10.0965   8.7327e-10        1.88704    F
+Science                  258       59   8.38151  1.07407e-08       0.443854   M
+Womens                     2       20   2.20802  2.77306e-08      20.3749     F
+Economics                112       15   5.30511  4.22623e-08       0.26428    M
+History                  221       50   7.74956  9.32443e-08       0.441527   M
+Womens Fiction            32       50   4.26284  3.83771e-07       3.21006    F
+Young Adult              272      208  10.3137   3.77079e-06       1.60957    F
+Family                    36       47   4.28876  1.1775e-05        2.67497    F
+North American Hi...     171       43   6.88651  3.10018e-05       0.495696   M
+Magical Realism           24       34   3.58514  7.22174e-05       2.89144    F
+Philosophy               157       40   6.60732  7.74e-05          0.503347   M
+Sports and Games          48        5   3.42713  0.000101517       0.208001   M
+Relationships             13       24   2.86347  0.000140149       3.7587     F
+Military                  32        2   2.74493  0.000340348       0.125133   M
+Romance                  206      147   8.84463  0.000837715       1.4764     F
+Historical               146      111   7.54673  0.000885063       1.56678    F
+Music                     73       16   4.44107  0.00216289        0.437302   M
+Law                       21        1   2.20802  0.00251475        0.0955663  M
+Thriller                  90       24   5.02626  0.00525352        0.531902   M
+Biology                   47        9   3.52279  0.00644299        0.383285   M
+War                      133       42   6.22747  0.0100293         0.628669   M
+Childrens                120       85   6.74015  0.0141366         1.4489     F
+Parenting                 16       18   2.74493  0.017635          2.2813     F
+Spy Thriller              37        8   3.1579   0.0269974         0.433698   M
+Business                  68       19   4.39089  0.02977           0.559123   M
+Animals                   51       39   4.46595  0.0439142         1.55383    F
+Mystery                  410      170  11.3372   0.0522288         0.820092   M
+Sports                    26        5   2.62104  0.0547105         0.38625    M
+Travel                   115       41   5.87969  0.0739934         0.71285    M
+Christian                 21        4   2.35376  0.0877876         0.382874   M
+Health                    42       12   3.45931  0.110834          0.573562   M
+Education                 11       11   2.20802  0.11238           2.02292    F
+American                  17       15   2.66298  0.131167          1.78592    F
+Religion                 100       37   5.51001  0.146206          0.7412     M
+World War II              19       16   2.78501  0.149256          1.70446    F
+Spirituality              18        4   2.20802  0.17522           0.447041   M
+Horror                    70       25   4.58833  0.190517          0.716587   M
+Culture                   33       10   3.08693  0.196359          0.609128   M
+Fantasy                  200      115   8.35502  0.209045          1.17012    F
+Psychology                97       38   5.46965  0.235291          0.785836   M
+Crime                     24        7   2.62104  0.254825          0.586746   M
+Military History          24        7   2.62104  0.254825          0.586746   M
+Humor                    180       77   7.54673  0.289737          0.856974   M
+Glbt                      52       33   4.34012  0.299534          1.28498    F
+Science Fiction          136       57   6.5399   0.32025           0.840526   M
+Suspense                  36       23   3.61592  0.336251          1.29217    F
+Sociology                109       45   5.84188  0.346363          0.828602   M
+Social Science            19        6   2.35376  0.400141          0.635776   M
+Medical                   21        7   2.49099  0.426465          0.671099   M
+Self Help                 18       12   2.57842  0.440955          1.34684    F
+Race                      23        8   2.62104  0.449632          0.70028    M
+Anthropology              16        5   2.15726  0.488505          0.629317   M
+Language                  29       11   2.9773   0.505338          0.763675   M
+Adventure                 45       19   3.76602  0.597955          0.850095   M
+Asian Literature          23        9   2.66298  0.707614          0.788234   M
+Environment               51       23   4.04956  0.805156          0.908493   M
+Western                   14        8   2.20802  0.821448          1.1532     F
+Art                       94       48   5.60966  0.858903          1.03072    F
+New Adult                 27       12   2.93985  0.865537          0.895763   M
+European Literature      126       64   6.48887  0.877682          1.02535    F
+Sequential Art            41       19   3.64643  0.891327          0.934024   M
+Food and Drink            34       17   3.36184  1                 1.00856    F
+Science Fiction Fantasy   28       13   3.01429  1                 0.936004   M
+New York                  28       13   3.01429  1                 0.936004   M
+Paranormal                27       13   2.9773   1                 0.970928   M
+Apocalyptic               20        9   2.53508  1                 0.907188   M
+
+Women: Top Themes and Corresponding Men's Percentage
+
+                                Theme    Women(#)       Men(#)    Standard Dev  P Value
+-----------------------  ---  -------  ----------  -----------  --------------  ---------
+Politics                  49      262     8.30181  5.34897e-12       2.77305    F
+Adult Fiction             64       30     4.56411  5.44284e-12       0.226306   M
+Historical Fiction       216      244    10.0965   8.7327e-10        0.52993    F
+Science                   59      258     8.38151  1.07407e-08       2.253      F
+Womens                    20        2     2.20802  2.77306e-08       0.0490799  M
+Economics                 15      112     5.30511  4.22623e-08       3.78387    F
+History                   50      221     7.74956  9.32443e-08       2.26486    F
+Womens Fiction            50       32     4.26284  3.83771e-07       0.311521   F
+Young Adult              208      272    10.3137   3.77079e-06       0.621283   F
+Family                    47       36     4.28876  1.1775e-05        0.373836   F
+North American Hi...      43      171     6.88651  3.10018e-05       2.01736    F
+Magical Realism           34       24     3.58514  7.22174e-05       0.345849   F
+Philosophy                40      157     6.60732  7.74e-05          1.9867     F
+Sports and Games           5       48     3.42713  0.000101517       4.80766    F
+Relationships             24       13     2.86347  0.000140149       0.266049   F
+Military                   2       32     2.74493  0.000340348       7.99152    F
+Romance                  147      206     8.84463  0.000837715       0.677324   F
+Historical               111      146     7.54673  0.000885063       0.638251   F
+Music                     16       73     4.44107  0.00216289        2.28675    F
+Law                        1       21     2.20802  0.00251475       10.4639     F
+Thriller                  24       90     5.02626  0.00525352        1.88005    F
+Biology                    9       47     3.52279  0.00644299        2.60903    F
+War                       42      133     6.22747  0.0100293         1.59066    F
+Childrens                 85      120     6.74015  0.0141366         0.690179   F
+Parenting                 18       16     2.74493  0.017635          0.438347   F
+Spy Thriller               8       37     3.1579   0.0269974         2.30575    F
+Business                  19       68     4.39089  0.02977           1.78852    F
+Animals                   39       51     4.46595  0.0439142         0.643573   F
+Mystery                  170      410    11.3372   0.0522288         1.21938    F
+Sports                     5       26     2.62104  0.0547105         2.58899    F
+Travel                    41      115     5.87969  0.0739934         1.40282    F
+Christian                  4       21     2.35376  0.0877876         2.61182    F
+Health                    12       42     3.45931  0.110834          1.74349    F
+Education                 11       11     2.20802  0.11238           0.494335   F
+American                  15       17     2.66298  0.131167          0.559937   F
+Religion                  37      100     5.51001  0.146206          1.34916    F
+World War II              16       19     2.78501  0.149256          0.586695   F
+Spirituality               4       18     2.20802  0.17522           2.23693    F
+Horror                    25       70     4.58833  0.190517          1.3955     F
+Culture                   10       33     3.08693  0.196359          1.64169    F
+Fantasy                  115      200     8.35502  0.209045          0.854614   F
+Psychology                38       97     5.46965  0.235291          1.27253    F
+Crime                      7       24     2.62104  0.254825          1.70431    F
+Military History           7       24     2.62104  0.254825          1.70431    F
+Humor                     77      180     7.54673  0.289737          1.1669     F
+Glbt                      33       52     4.34012  0.299534          0.778224   F
+Science Fiction           57      136     6.5399   0.32025           1.18973    F
+Suspense                  23       36     3.61592  0.336251          0.77389    F
+Sociology                 45      109     5.84188  0.346363          1.20685    F
+Social Science             6       19     2.35376  0.400141          1.57288    F
+Medical                    7       21     2.49099  0.426465          1.49009    F
+Self Help                 12       18     2.57842  0.440955          0.742476   F
+Race                       8       23     2.62104  0.449632          1.428      F
+Anthropology               5       16     2.15726  0.488505          1.58902    F
+Language                  11       29     2.9773   0.505338          1.30946    F
+Adventure                 19       45     3.76602  0.597955          1.17634    F
+Asian Literature           9       23     2.66298  0.707614          1.26866    F
+Environment               23       51     4.04956  0.805156          1.10072    F
+Western                    8       14     2.20802  0.821448          0.867155   F
+Art                       48       94     5.60966  0.858903          0.970198   F
+New Adult                 12       27     2.93985  0.865537          1.11637    F
+European Literature       64      126     6.48887  0.877682          0.97528    F
+Sequential Art            19       41     3.64643  0.891327          1.07064    F
+Paranormal                13       27     2.9773   1                 1.02994    F
+Science Fiction Fantasy   13       28     3.01429  1                 1.06837    F
+New York                  13       28     3.01429  1                 1.06837    F
+Apocalyptic                9       20     2.53508  1                 1.10231    F
+Food and Drink            17       34     3.36184  1                 0.991516   F
+
+count total books labelled F/NF3448
+{'Autobiography': 567, 'Arts': 312, 'Plays': 31, 'Social Science': 211, 'Humanities': 143, 'Gender': 258, 'Military History': 34, 'Asian Lit': 32, 'Magical Realism': 58, 'Poetry': 144, 'Sports': 67, 'Romance': 570, 'Spirituality': 174, 'Book Club': 46, 'Comedy': 185, 'War': 213, 'Environment': 150, 'Classics': 102, 'Business': 99, 'Government': 304, 'Anthologies': 25, 'Leisure': 156, 'Dark': 125, 'Cultural': 736, 'Adult': 64, 'Science': 672, 'Short Stories': 257, 'Adventure': 250, 'Writing': 130, 'Social Issues': 25, 'Language': 41, 'Literature': 638, 'Economics': 117, 'Crime/Mystery': 460, 'Youth': 561, 'Academic': 68, 'American': 93, 'Race': 29, 'Health/Body': 71, 'Fiction': 1922, 'History': 982, 'Criticism': 53, 'Drama': 25, 'Biography Memoir': 172, 'Family': 133, 'Reference': 36, 'Novels': 323, 'Contemporary': 625, 'Fantasy': 362, 'Self Help': 35, 'Sexuality': 78, 'Nonfiction': 1526, 'European Lit': 192, 'Education': 26, 'Biography': 303}
+[('Fiction', 1170), ('Nonfiction', 1132), ('History', 693), ('Science', 504), ('Cultural', 459), ('Literature', 447), ('Contemporary', 337), ('Autobiography', 336), ('Crime/Mystery', 328), ('Youth', 325), ('Romance', 304), ('Government', 254), ('Fantasy', 227), ('Arts', 224), ('Biography', 214), ('Novels', 211), ('Adventure', 192), ('War', 166), ('Social Science', 149), ('Short Stories', 140), ('Spirituality', 138), ('Comedy', 132), ('European Lit', 129), ('Humanities', 120), ('Leisure', 108), ('Economics', 102), ('Poetry', 100), ('Writing', 98), ('Environment', 93), ('Gender', 92), ('Biography Memoir', 89), ('Dark', 84), ('Business', 81), ('Classics', 67), ('Sports', 58), ('American', 57), ('Family', 54), ('Health/Body', 52), ('Academic', 47), ('Criticism', 42), ('Sexuality', 41), ('Adult', 31), ('Language', 31), ('Reference', 27), ('Military History', 26), ('Magical Realism', 25), ('Book Club', 24), ('Plays', 23), ('Asian Lit', 23), ('Self Help', 22), ('Race', 21), ('Anthologies', 19), ('Social Issues', 17), ('Education', 16), ('Drama', 16)]
+male
+female
+-----------CONSOLIDATED THEMES------------
+
+Number of total themes found: 55
+
+Percentage of Books by Women that are Nonfiction: 20.88%, 394
+Percentage of Books by Women that are Fiction: 39.85%, 752
+
+Percentage of Books by Men that are Nonfiction: 29.74%, 1132
+Percentage of Books by Men that are Fiction: 30.74%, 1170
+
+Consolidated Themes
+
+Theme               Men(#)    Women(#)    Standard Dev      P Value    Odds Ratio  skew
+----------------  --------  ----------  --------------  -----------  ------------  ------
+Gender                  92         166         7.5614   2.35896e-24      3.89387   F
+Romance                304         266        11.2391   2.49045e-11      1.89035   F
+Government             254          50         8.20785  6.55461e-11      0.380627  M
+Family                  54          79         5.42898  7.77218e-10      3.03597   F
+Economics              102          15         5.09196  6.12697e-07      0.290975  M
+Science                504         168        12.2033   5.12435e-06      0.640295  M
+Humanities             120          23         5.62938  6.86513e-06      0.379015  M
+Youth                  325         236        11.15     1.05393e-05      1.53104   F
+Magical Realism         25          33         3.58514  0.000226234      2.69197   F
+Spirituality           138          36         6.20965  0.000367537      0.516947  M
+Sports                  58           9         3.85327  0.000374653      0.309684  M
+War                    166          47         6.8704   0.000454985      0.56011   M
+Adventure              192          58         7.44325  0.000747691      0.596899  M
+Business                81          18         4.68393  0.00124973       0.442899  M
+Sexuality               41          37         4.15757  0.0109765        1.83659   F
+History                693         289        14.7519   0.0133235        0.812394  M
+Crime/Mystery          328         132        10.0965   0.0423794        0.79754   M
+Arts                   224          88         8.31514  0.0710119        0.78222   M
+Fantasy                227         135         8.95667  0.0942509        1.21489   F
+Comedy                 132          53         6.40292  0.211627         0.804344  M
+Environment             93          57         5.76551  0.224526         1.24356   F
+American                57          36         4.53977  0.27095          1.27919   F
+Social Science         149          62         6.83807  0.272697         0.833811  M
+Military History        26           8         2.74493  0.277071         0.618987  M
+Health/Body             52          19         3.96663  0.312997         0.73429   M
+Language                31          10         3.01429  0.319062         0.64877   M
+Education               16          10         2.40038  0.5398           1.26199   F
+Leisure                108          48         5.87969  0.552793         0.893722  M
+Self Help               22          13         2.78501  0.595031         1.19317   F
+Race                    21           8         2.53508  0.693606         0.767379  M
+Asian Lit               23           9         2.66298  0.707614         0.788234  M
+European Lit           129          63         6.52294  1                0.984509  M
+Dark                    84          41         5.26317  1                0.984123  M
+Social Issues           17           8         2.35376  1                0.94894   M
+percents
+Theme                Men(%)    Women(%)
+----------------  ---------  ----------
+History           18.2081     15.3153
+Romance            7.98739    14.0964
+Youth              8.53915    12.5066
+Science           13.2422      8.90302
+Gender             2.41724     8.79703
+Fantasy            5.96427     7.15421
+Crime/Mystery      8.61797     6.99523
+Arts               5.88544     4.66349
+Family             1.41881     4.18654
+European Lit       3.38939     3.33863
+Social Science     3.91487     3.28564
+Adventure          5.04467     3.07366
+Environment        2.44351     3.02067
+Comedy             3.46821     2.80869
+Government         6.67367     2.64971
+Leisure            2.83762     2.54372
+War                4.36153     2.49073
+Dark               2.20704     2.17276
+Sexuality          1.07725     1.96078
+Spirituality       3.62585     1.90779
+American           1.49764     1.90779
+Magical Realism    0.656858    1.74881
+Humanities         3.15292     1.21887
+Health/Body        1.36626     1.00689
+Business           2.12822     0.953895
+Economics          2.67998     0.794913
+Self Help          0.578035    0.688924
+Language           0.814503    0.529942
+Education          0.420389    0.529942
+Sports             1.52391     0.476948
+Asian Lit          0.604309    0.476948
+Military History   0.683132    0.423953
+Race               0.55176     0.423953
+Social Issues      0.446663    0.423953
